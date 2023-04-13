@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 85rem;
+    padding-left: 5rem;
+    
+}
+
+.navbar h2{
+    font-size: 60px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+.nav{
+    background-color: red;
+    padding: 2rem 6rem;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font-size: 25px;
+    
+}
+
+.nav button{
+    background-color: black;
+    padding: 25px 30px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.branding{
+    background-image: url(./andrew-Landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 85rem;
+    height: 40rem;
+    position: relative;
+    
+    
+}
+
+.write1{
+    padding: 100px 100px;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255) 25%,
+    rgba(255, 255, 255, 0.62) 50%,
+    rgba(0, 0, 0, 0) 100%);
+}
+
+h1{
+    font-size: 60px;
+    width: 25rem;
+}
+
+.branding button{
+    background-color: red;
+    padding: 20px 30px;
+    margin-top: 70px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.write1 .para{
+    font-size: 20px;
+    width: 20rem;
+    margin-top: 40px;  
+}
+
+.imageblack{
+    display: flex;
+}
+
+.lappyimg{
+    background-image: url(./fabian-irsara-67l-QujB14w-unsplash.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-position: center;
+    width: 45rem;
+}
+.lappyimg p{
+    font-size: 13rem;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 4rem;
+    left: 42rem;
+}
+
+.blackwrite{
+    background-color: black;
+    color: white;
+    width: 40rem;
+    padding: 8rem;
+}
+
+.blackwrite h2{
+    font-size: 50px;
+}
+
+.designis{
+    padding-top: 3rem;
+    width: 20rem;
+    font-size: 25px;
+}
+
+.imageblack .colour{
+    color: red;
+}
+
+.imageblack .schedule{
+    color: red;
+    font-size: 30px;
+    
+}
+
+.line{
+    width: 190px;
+    border: 3px solid red;
+    
+}
+.brand{
+    background-color: white;
+    height: 40rem;
+    width: 35rem;
+    padding: 5rem;
+    padding-top: 15rem;
+    font-size: 40px;
+}
+.ourapproach{
+    background-color: red;
+    height: 60rem;
+    width: 50rem;
+    position: relative;
+    bottom: 10rem;
+    padding: 10rem;
+    color: white;
+}
+
+.our{
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+    position: relative;
+    bottom: 10rem;
+}
+.naming{
+    background-image: url(./clay-banks-w_qTfiPbjbg-unsplash.jpg);
+    width: 51rem;
+    height: 40rem;
+    position: relative;
+    left: 34rem;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: right;
+    padding-top: 30rem;
+    padding-right: 7rem;
+}
+
+.bookimg{
+    background-color: black;
+    height: 30rem;
+    width: 42rem;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10rem;
+}
+.bookimg p{
+    font-size: 13rem;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        bottom: 12rem;
+        left: 28rem;
+    
+    
+} 
+
+.last{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 85rem;
+    height: 30rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.build{
+font-size: 50px;
+font-weight: bold;
+padding-left: 5rem;
+width: 35rem;
+}
+.call{
+    padding-right: 5rem;
+    
+}
+.call button{
+    padding: 20px 30px;
+    background-color: red;
+    border: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.our .num1{
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.342);
+
+}
+
+.our .titlebs{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.our p{
+    font-size: 25px;
+    position: relative;
+    bottom: 3rem;
+}
+
+.bottom .project{
+    font-size: 20px;
+    font-weight: lighter;
+}
